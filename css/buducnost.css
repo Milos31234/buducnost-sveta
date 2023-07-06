@@ -1,0 +1,67 @@
+p{
+    margin-top:0;
+    margin-bottom:0;
+    font-family:Roboto,Arial;
+}
+.prva-divizija{
+    width: 200px;
+    box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.20);
+    height: 337px;
+    margin-left: 15px;
+    display: inline-block;
+    margin-top: 15px;
+}
+.slika-macke{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+.slika-prijatellja{
+    width: 35px;
+    height: 35px;
+    object-fit: cover;
+    border-radius: 20px;
+    display: inline-block;
+}
+.ime{
+    font-weight: 700;
+    margin-top: 10px;
+    font-size: 19px;
+    
+}
+.treca-divizija{
+    margin-left: 10px;
+}
+.dodaj-prijatelja{
+    background-color: rgb(63, 131, 219);
+    border: none;
+    width: 115px;
+    height: 35px;
+    color: white;
+    border-radius: 3px;
+    font-weight: 500;
+    font-size: 15px;
+    margin-top: 10px;
+    transition:background-color 0.20s, opacity 0.20s;
+}
+.dodaj-prijatelja:hover{
+    background-color:rgb(56, 116, 194);
+}
+.dodaj-prijatelja:active{
+    opacity: 0.8;
+}
+.prijatelj{
+    font-size: 15px;
+    color: rgb(150, 150, 150);
+
+}
+.cetvrta-divizija{
+    display: inline-block;
+    margin-top: 5px;
+}
+.peta-divizija{
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 13px;
+    margin-left: 5px;
+}
